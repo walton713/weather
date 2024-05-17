@@ -2,7 +2,7 @@
 
 Reference
 
-Namespace: [Weather.Services](Weather-Services.md)
+Namespace: [Weather.Services](Weather-Services.md)<br/>
 Assembly: Weather
 
 Get alerts from the National Weather Service (NWS) API as an asynchronous operation.

@@ -14,7 +14,7 @@
         </toc-element>
         <toc-element toc-title="NwsService">
             <toc-element topic="NwsService.md" toc-title="NwsService"/>
-            <toc-element topic="Constructors.md" toc-title="Constructors"/>
+            <toc-element topic="NwsService-Constructors.md" toc-title="Constructors"/>
             <toc-element toc-title="Methods">
                 <toc-element topic="NwsService-GetAlertsAsync.md" toc-title="GetAlertsAsync"/>
             </toc-element>

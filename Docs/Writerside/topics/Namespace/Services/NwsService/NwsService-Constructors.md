@@ -4,8 +4,8 @@ Reference
 
 ## Definition
 
-Namespace: [Weather.Services](Weather-Services.md)
-Assembly: Weather
+Namespace: [Weather.Services](Weather-Services.md)<br/>
+Assembly: Weather<br/>
 Source: [NwsService.cs](https://github.com/walton713/weather/blob/master/Source/Weather/Services/NwsService.cs#L6)
 
 Initializes a new instance of the NwsService class using the specified client.

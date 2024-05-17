@@ -4,8 +4,8 @@ Reference
 
 ## Definition
 
-Namespace: [Weather.Services](Weather-Services.md)
-Assembly: Weather
+Namespace: [Weather.Services](Weather-Services.md)<br/>
+Assembly: Weather<br/>
 Source: [INwsService.cs](https://github.com/walton713/weather/blob/master/Source/Weather/Services/INwsService.cs)
 
 Provides an abstraction for a component that can retrieve weather data from the National Weather Service (NWS) API.

@@ -4,8 +4,8 @@ Reference
 
 ## Definition
 
-Namespace: [Weather.Services](Weather-Services.md)
-Assembly: Weather
+Namespace: [Weather.Services](Weather-Services.md)<br/>
+Assembly: Weather<br/>
 Source: [NwsService](https://github.com/walton713/weather/blob/master/Source/Weather/Services/NwsService.cs)
 
 Provides a class for retrieving weather data from the National Weather Service (NWS) API.
@@ -33,7 +33,7 @@ For more information on the NWS API visit [their documentation](https://www.weat
 
 <table>
 <tr>
-<td>NwsService(HttpClient)</td>
+<td><a href="NwsService-Constructors.md">NwsService(HttpClient)</a></td>
 <td>Initializes a new instance of the NwsService class using the specified client.</td>
 </tr>
 </table>
@@ -42,7 +42,7 @@ For more information on the NWS API visit [their documentation](https://www.weat
 
 <table>
 <tr>
-<td>GetAlertsAsync()</td>
+<td><a href="NwsService-GetAlertsAsync.md#GetAlertsAsync()">GetAlertsAsync()</a></td>
 <td>Get the latest NWS alerts as an asynchronous operation.</td>
 </tr>
 </table>
