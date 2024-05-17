@@ -4,42 +4,17 @@ Reference
 
 ## Definition
 
-Namespace: [Namespace here]()
-Assembly: Assembly here
+Namespace: [Weather.Services](Weather-Services.md)
+Assembly: Weather
+Source: [NwsService.cs](https://github.com/walton713/weather/blob/master/Source/Weather/Services/NwsService.cs#L6)
 
---description--
-
-## Overloads
-
-<table>
-<tr>
-<td>Constructor here</td>
-<td>Description here</td>
-</tr>
-</table>
-
-## Remarks
-
---remarks here--
-
-## Constructor
-
-Source: [Source here]()
-
---description here--
+Initializes a new instance of the NwsService class using the specified client.
 
 ```C#
-code here
+public NwsService (System.Net.Http.HttpClient client);
 ```
 
 ### Parameters
 
---parameters here--
-
-### Exceptions
-
---exceptions here--
-
-### Remarks {id=}
-
---remarks here--
+<code>client</code> [HttpClient](https://learn.microsoft.com/en-us/dotnet/api/system.net.http.httpclient.-ctor?view=net-8.0)
+The HTTP client to use for sending requests.

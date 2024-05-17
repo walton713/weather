@@ -18,7 +18,7 @@ public interface INwsService
 
 <table>
 <tr>
-<td><a href="GetAlertsAsync.md#GetAlertsAsync()">GetAlertsAsync()</a></td>
+<td><a href="INwsService-GetAlertsAsync.md#GetAlertsAsync()">GetAlertsAsync()</a></td>
 <td>Get the latest NWS alerts as an asynchronous operation.</td>
 </tr>
 </table>

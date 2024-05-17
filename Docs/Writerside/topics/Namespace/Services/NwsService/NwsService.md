@@ -34,7 +34,7 @@ For more information on the NWS API visit [their documentation](https://www.weat
 <table>
 <tr>
 <td>NwsService(HttpClient)</td>
-<td>Initializes a new instance of the NwsService class using an instance of HttpClient</td>
+<td>Initializes a new instance of the NwsService class using the specified client.</td>
 </tr>
 </table>
 

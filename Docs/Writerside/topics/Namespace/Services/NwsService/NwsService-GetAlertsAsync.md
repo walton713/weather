@@ -1,4 +1,4 @@
-# INwsService.GetAlertsAsync Method
+# NwsService.GetAlertsAsync Method
 
 Reference
 
@@ -11,14 +11,14 @@ Get alerts from the National Weather Service (NWS) API as an asynchronous operat
 
 <table>
 <tr>
-<td><a href="GetAlertsAsync.md#GetAlertsAsync()">GetAlertsAsync()</a></td>
+<td><a href="NwsService-GetAlertsAsync.md#GetAlertsAsync()">GetAlertsAsync()</a></td>
 <td>Get the latest alerts from the NWS API as an asynchronous operation.</td>
 </tr>
 </table>
 
 ## GetAlertsAsync() {id=GetAlertsAsync()}
 
-Source: [INwsService.cs](https://github.com/walton713/weather/blob/master/Source/Weather/Services/INwsService.cs#L8)
+Source: [NwsService.cs](https://github.com/walton713/weather/blob/master/Source/Weather/Services/NwsService.cs#L8)
 
 Get the latest alerts from the NWS API as an asynchronous operation.
 
