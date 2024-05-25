@@ -1,0 +1,268 @@
+{
+  "source_base_path": "/mnt/c/Users/walto/Documents/Projects/Weather/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.Alert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.Alert.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertCertainty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertCertainty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertMessageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertMessageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertProperties.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertReference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertSeverity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertUrgency.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertUrgency.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.AlertsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.AlertsResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.ErrorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.ErrorResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.GeoCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.GeoCode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.PaginationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.PaginationInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Data.Nws.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Data.Nws.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Services.INwsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Services.INwsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Services.NwsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Services.NwsService.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Weather.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Weather.Services.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "docs/toc.json"
+        },
+        ".html": {
+          "relative_path": "docs/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

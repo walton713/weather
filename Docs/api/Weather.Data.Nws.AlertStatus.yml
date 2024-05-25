@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertStatus
+  commentId: T:Weather.Data.Nws.AlertStatus
+  id: AlertStatus
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertStatus.Actual
+  - Weather.Data.Nws.AlertStatus.Draft
+  - Weather.Data.Nws.AlertStatus.Exercise
+  - Weather.Data.Nws.AlertStatus.System
+  - Weather.Data.Nws.AlertStatus.Test
+  langs:
+  - csharp
+  - vb
+  name: AlertStatus
+  nameWithType: AlertStatus
+  fullName: Weather.Data.Nws.AlertStatus
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertStatus.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertStatus
+    path: ../Source/Weather/Weather/Data/Nws/AlertStatus.cs
+    startLine: 4
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: >-
+      [Flags]
+
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertStatus
+    content.vb: >-
+      <Flags>
+
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertStatus
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertStatus.Actual
+  commentId: F:Weather.Data.Nws.AlertStatus.Actual
+  id: Actual
+  parent: Weather.Data.Nws.AlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Actual
+  nameWithType: AlertStatus.Actual
+  fullName: Weather.Data.Nws.AlertStatus.Actual
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertStatus.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Actual
+    path: ../Source/Weather/Weather/Data/Nws/AlertStatus.cs
+    startLine: 8
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Actual = 1
+    return:
+      type: Weather.Data.Nws.AlertStatus
+- uid: Weather.Data.Nws.AlertStatus.Exercise
+  commentId: F:Weather.Data.Nws.AlertStatus.Exercise
+  id: Exercise
+  parent: Weather.Data.Nws.AlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Exercise
+  nameWithType: AlertStatus.Exercise
+  fullName: Weather.Data.Nws.AlertStatus.Exercise
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertStatus.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Exercise
+    path: ../Source/Weather/Weather/Data/Nws/AlertStatus.cs
+    startLine: 9
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Exercise = 2
+    return:
+      type: Weather.Data.Nws.AlertStatus
+- uid: Weather.Data.Nws.AlertStatus.System
+  commentId: F:Weather.Data.Nws.AlertStatus.System
+  id: System
+  parent: Weather.Data.Nws.AlertStatus
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: AlertStatus.System
+  fullName: Weather.Data.Nws.AlertStatus.System
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertStatus.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: System
+    path: ../Source/Weather/Weather/Data/Nws/AlertStatus.cs
+    startLine: 10
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: System = 4
+    return:
+      type: Weather.Data.Nws.AlertStatus
+- uid: Weather.Data.Nws.AlertStatus.Test
+  commentId: F:Weather.Data.Nws.AlertStatus.Test
+  id: Test
+  parent: Weather.Data.Nws.AlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Test
+  nameWithType: AlertStatus.Test
+  fullName: Weather.Data.Nws.AlertStatus.Test
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertStatus.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Test
+    path: ../Source/Weather/Weather/Data/Nws/AlertStatus.cs
+    startLine: 11
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Test = 8
+    return:
+      type: Weather.Data.Nws.AlertStatus
+- uid: Weather.Data.Nws.AlertStatus.Draft
+  commentId: F:Weather.Data.Nws.AlertStatus.Draft
+  id: Draft
+  parent: Weather.Data.Nws.AlertStatus
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: AlertStatus.Draft
+  fullName: Weather.Data.Nws.AlertStatus.Draft
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertStatus.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Draft
+    path: ../Source/Weather/Weather/Data/Nws/AlertStatus.cs
+    startLine: 12
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Draft = 16
+    return:
+      type: Weather.Data.Nws.AlertStatus
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertStatus
+  commentId: T:Weather.Data.Nws.AlertStatus
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertStatus.html
+  name: AlertStatus
+  nameWithType: AlertStatus
+  fullName: Weather.Data.Nws.AlertStatus

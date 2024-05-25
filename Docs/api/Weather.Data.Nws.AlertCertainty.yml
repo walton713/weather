@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertCertainty
+  commentId: T:Weather.Data.Nws.AlertCertainty
+  id: AlertCertainty
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertCertainty.Likely
+  - Weather.Data.Nws.AlertCertainty.Observed
+  - Weather.Data.Nws.AlertCertainty.Possible
+  - Weather.Data.Nws.AlertCertainty.Unknown
+  - Weather.Data.Nws.AlertCertainty.Unlikely
+  langs:
+  - csharp
+  - vb
+  name: AlertCertainty
+  nameWithType: AlertCertainty
+  fullName: Weather.Data.Nws.AlertCertainty
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertCertainty
+    path: ../Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+    startLine: 7
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A representation of the likelihood an event will occur in relation to an alert from the National Weather Service (NWS) API.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertCertainty
+    content.vb: >-
+      <Flags>
+
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertCertainty
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertCertainty.Likely
+  commentId: F:Weather.Data.Nws.AlertCertainty.Likely
+  id: Likely
+  parent: Weather.Data.Nws.AlertCertainty
+  langs:
+  - csharp
+  - vb
+  name: Likely
+  nameWithType: AlertCertainty.Likely
+  fullName: Weather.Data.Nws.AlertCertainty.Likely
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Likely
+    path: ../Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+    startLine: 15
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An event is likely to happen in association with the alert.
+  example: []
+  syntax:
+    content: Likely = 1
+    return:
+      type: Weather.Data.Nws.AlertCertainty
+      description: "1"
+- uid: Weather.Data.Nws.AlertCertainty.Observed
+  commentId: F:Weather.Data.Nws.AlertCertainty.Observed
+  id: Observed
+  parent: Weather.Data.Nws.AlertCertainty
+  langs:
+  - csharp
+  - vb
+  name: Observed
+  nameWithType: AlertCertainty.Observed
+  fullName: Weather.Data.Nws.AlertCertainty.Observed
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Observed
+    path: ../Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+    startLine: 21
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An event has been observed in association with the alert.
+  example: []
+  syntax:
+    content: Observed = 2
+    return:
+      type: Weather.Data.Nws.AlertCertainty
+      description: "2"
+- uid: Weather.Data.Nws.AlertCertainty.Possible
+  commentId: F:Weather.Data.Nws.AlertCertainty.Possible
+  id: Possible
+  parent: Weather.Data.Nws.AlertCertainty
+  langs:
+  - csharp
+  - vb
+  name: Possible
+  nameWithType: AlertCertainty.Possible
+  fullName: Weather.Data.Nws.AlertCertainty.Possible
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Possible
+    path: ../Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+    startLine: 27
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An event is possible in association with the alert.
+  example: []
+  syntax:
+    content: Possible = 4
+    return:
+      type: Weather.Data.Nws.AlertCertainty
+      description: "4"
+- uid: Weather.Data.Nws.AlertCertainty.Unknown
+  commentId: F:Weather.Data.Nws.AlertCertainty.Unknown
+  id: Unknown
+  parent: Weather.Data.Nws.AlertCertainty
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AlertCertainty.Unknown
+  fullName: Weather.Data.Nws.AlertCertainty.Unknown
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Unknown
+    path: ../Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+    startLine: 33
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: The likelihood of an event is unknown in association with the alert.
+  example: []
+  syntax:
+    content: Unknown = 8
+    return:
+      type: Weather.Data.Nws.AlertCertainty
+      description: "8"
+- uid: Weather.Data.Nws.AlertCertainty.Unlikely
+  commentId: F:Weather.Data.Nws.AlertCertainty.Unlikely
+  id: Unlikely
+  parent: Weather.Data.Nws.AlertCertainty
+  langs:
+  - csharp
+  - vb
+  name: Unlikely
+  nameWithType: AlertCertainty.Unlikely
+  fullName: Weather.Data.Nws.AlertCertainty.Unlikely
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Unlikely
+    path: ../Source/Weather/Weather/Data/Nws/AlertCertainty.cs
+    startLine: 39
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An event is unlikely to occur in association with the alert.
+  example: []
+  syntax:
+    content: Unlikely = 16
+    return:
+      type: Weather.Data.Nws.AlertCertainty
+      description: "16"
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertCertainty
+  commentId: T:Weather.Data.Nws.AlertCertainty
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertCertainty.html
+  name: AlertCertainty
+  nameWithType: AlertCertainty
+  fullName: Weather.Data.Nws.AlertCertainty

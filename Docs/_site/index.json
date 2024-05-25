@@ -1,0 +1,107 @@
+{
+  "api/Weather.Data.Nws.Alert.html": {
+    "href": "api/Weather.Data.Nws.Alert.html",
+    "title": "Class Alert | Weather",
+    "keywords": "Class Alert Namespace Weather.Data.Nws Assembly Weather.dll A representation of alert features from the National Weather Service (NWS) API. public class Alert Inheritance object Alert Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id Gets or sets the id of the alert. [JsonPropertyName(\"id\")] public string Id { get; set; } Property Value string The id of the alert. Properties Gets or sets the properties of the alert. [JsonPropertyName(\"properties\")] public AlertProperties Properties { get; set; } Property Value AlertProperties The properties of the alert. Type Gets or sets the type of the alert. [JsonPropertyName(\"type\")] public string Type { get; set; } Property Value string The type of the alert."
+  },
+  "api/Weather.Data.Nws.AlertCategory.html": {
+    "href": "api/Weather.Data.Nws.AlertCategory.html",
+    "title": "Enum AlertCategory | Weather",
+    "keywords": "Enum AlertCategory Namespace Weather.Data.Nws Assembly Weather.dll A representation of the category of an alert from the National Weather Service (NWS) API. [Flags] [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertCategory Fields CBRNE = 1 A Chemical, Biological, Radiological, Nuclear or High-Yield Explosive alert. Env = 2 An Environmental alert. Fire = 4 A Fire alert. Geo = 8 A Geological alert. Health = 16 A Health alert. Infra = 32 An Infrastructure alert. Met = 64 A Meteorological alert. Other = 128 An alert not described by the other values. Rescue = 256 A Rescue alert. Safety = 512 A Safety alert. Security = 1024 A Security alert. Transport = 2048 A Transportation alert."
+  },
+  "api/Weather.Data.Nws.AlertCertainty.html": {
+    "href": "api/Weather.Data.Nws.AlertCertainty.html",
+    "title": "Enum AlertCertainty | Weather",
+    "keywords": "Enum AlertCertainty Namespace Weather.Data.Nws Assembly Weather.dll A representation of the likelihood an event will occur in relation to an alert from the National Weather Service (NWS) API. [Flags] [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertCertainty Fields Likely = 1 An event is likely to happen in association with the alert. Observed = 2 An event has been observed in association with the alert. Possible = 4 An event is possible in association with the alert. Unknown = 8 The likelihood of an event is unknown in association with the alert. Unlikely = 16 An event is unlikely to occur in association with the alert."
+  },
+  "api/Weather.Data.Nws.AlertMessageType.html": {
+    "href": "api/Weather.Data.Nws.AlertMessageType.html",
+    "title": "Enum AlertMessageType | Weather",
+    "keywords": "Enum AlertMessageType Namespace Weather.Data.Nws Assembly Weather.dll A representation of the latest message type of an alert from the National Weather Service (NWS) API. [Flags] [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertMessageType Fields Ack = 1 The message is an acknowledgement. Alert = 2 The message is a new alert. Cancel = 4 The message is a cancellation of an alert. Error = 8 The message was issued in error. Update = 16 the message is an update to an alert."
+  },
+  "api/Weather.Data.Nws.AlertProperties.html": {
+    "href": "api/Weather.Data.Nws.AlertProperties.html",
+    "title": "Class AlertProperties | Weather",
+    "keywords": "Class AlertProperties Namespace Weather.Data.Nws Assembly Weather.dll public class AlertProperties Inheritance object AlertProperties Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties AffectedZones [JsonPropertyName(\"affectedZones\")] public IEnumerable<string> AffectedZones { get; set; } Property Value IEnumerable<string> AreaDescription [JsonPropertyName(\"areaDesc\")] public string AreaDescription { get; set; } Property Value string Category [JsonPropertyName(\"category\")] public AlertCategory Category { get; set; } Property Value AlertCategory Certainty [JsonPropertyName(\"certainty\")] public AlertCertainty Certainty { get; set; } Property Value AlertCertainty Description [JsonPropertyName(\"description\")] public string Description { get; set; } Property Value string Effective [JsonPropertyName(\"effective\")] public DateTime Effective { get; set; } Property Value DateTime Ends [JsonPropertyName(\"ends\")] public DateTime? Ends { get; set; } Property Value DateTime? Event [JsonPropertyName(\"event\")] public string Event { get; set; } Property Value string Expires [JsonPropertyName(\"expires\")] public DateTime Expires { get; set; } Property Value DateTime Geocode [JsonPropertyName(\"geoCode\")] public GeoCode Geocode { get; set; } Property Value GeoCode Headline [JsonPropertyName(\"headline\")] public string? Headline { get; set; } Property Value string Id [JsonPropertyName(\"id\")] public string Id { get; set; } Property Value string Instruction [JsonPropertyName(\"instruction\")] public string? Instruction { get; set; } Property Value string MessageType [JsonPropertyName(\"messageType\")] public AlertMessageType MessageType { get; set; } Property Value AlertMessageType Onset [JsonPropertyName(\"onset\")] public DateTime? Onset { get; set; } Property Value DateTime? References [JsonPropertyName(\"references\")] public IEnumerable<AlertReference> References { get; set; } Property Value IEnumerable<AlertReference> Response [JsonPropertyName(\"response\")] public AlertResponse Response { get; set; } Property Value AlertResponse Sender [JsonPropertyName(\"sender\")] public string Sender { get; set; } Property Value string SenderName [JsonPropertyName(\"senderName\")] public string SenderName { get; set; } Property Value string Sent [JsonPropertyName(\"sent\")] public DateTime Sent { get; set; } Property Value DateTime Severity [JsonPropertyName(\"severity\")] public AlertSeverity Severity { get; set; } Property Value AlertSeverity Status [JsonPropertyName(\"status\")] public AlertStatus Status { get; set; } Property Value AlertStatus Urgency [JsonPropertyName(\"urgency\")] public AlertUrgency Urgency { get; set; } Property Value AlertUrgency"
+  },
+  "api/Weather.Data.Nws.AlertReference.html": {
+    "href": "api/Weather.Data.Nws.AlertReference.html",
+    "title": "Class AlertReference | Weather",
+    "keywords": "Class AlertReference Namespace Weather.Data.Nws Assembly Weather.dll public class AlertReference Inheritance object AlertReference Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id [JsonPropertyName(\"@id\")] public string Id { get; set; } Property Value string Identifier [JsonPropertyName(\"identifier\")] public string Identifier { get; set; } Property Value string Sender [JsonPropertyName(\"sender\")] public string Sender { get; set; } Property Value string Sent [JsonPropertyName(\"sent\")] public DateTime Sent { get; set; } Property Value DateTime"
+  },
+  "api/Weather.Data.Nws.AlertResponse.html": {
+    "href": "api/Weather.Data.Nws.AlertResponse.html",
+    "title": "Enum AlertResponse | Weather",
+    "keywords": "Enum AlertResponse Namespace Weather.Data.Nws Assembly Weather.dll [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertResponse Fields AllClear = 7 Assess = 6 Avoid = 4 Evacuate = 1 Execute = 3 Monitor = 5 None = 8 Prepare = 2 Shelter = 0"
+  },
+  "api/Weather.Data.Nws.AlertSeverity.html": {
+    "href": "api/Weather.Data.Nws.AlertSeverity.html",
+    "title": "Enum AlertSeverity | Weather",
+    "keywords": "Enum AlertSeverity Namespace Weather.Data.Nws Assembly Weather.dll [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertSeverity Fields Extreme = 0 Minor = 3 Moderate = 2 Severe = 1 Unknown = 4"
+  },
+  "api/Weather.Data.Nws.AlertStatus.html": {
+    "href": "api/Weather.Data.Nws.AlertStatus.html",
+    "title": "Enum AlertStatus | Weather",
+    "keywords": "Enum AlertStatus Namespace Weather.Data.Nws Assembly Weather.dll [Flags] [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertStatus Fields Actual = 1 Draft = 16 Exercise = 2 System = 4 Test = 8"
+  },
+  "api/Weather.Data.Nws.AlertUrgency.html": {
+    "href": "api/Weather.Data.Nws.AlertUrgency.html",
+    "title": "Enum AlertUrgency | Weather",
+    "keywords": "Enum AlertUrgency Namespace Weather.Data.Nws Assembly Weather.dll [JsonConverter(typeof(JsonStringEnumConverter))] public enum AlertUrgency Fields Expected = 1 Future = 2 Immediate = 0 Past = 3 Unknown = 4"
+  },
+  "api/Weather.Data.Nws.AlertsResponse.html": {
+    "href": "api/Weather.Data.Nws.AlertsResponse.html",
+    "title": "Class AlertsResponse | Weather",
+    "keywords": "Class AlertsResponse Namespace Weather.Data.Nws Assembly Weather.dll public class AlertsResponse Inheritance object AlertsResponse Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Features [JsonPropertyName(\"features\")] public IEnumerable<Alert> Features { get; set; } Property Value IEnumerable<Alert> Pagination [JsonPropertyName(\"pagination\")] public PaginationInfo Pagination { get; set; } Property Value PaginationInfo Title [JsonPropertyName(\"title\")] public string Title { get; set; } Property Value string Type [JsonPropertyName(\"type\")] public string Type { get; set; } Property Value string Updated [JsonPropertyName(\"updated\")] public DateTime Updated { get; set; } Property Value DateTime"
+  },
+  "api/Weather.Data.Nws.ErrorResponse.html": {
+    "href": "api/Weather.Data.Nws.ErrorResponse.html",
+    "title": "Class ErrorResponse | Weather",
+    "keywords": "Class ErrorResponse Namespace Weather.Data.Nws Assembly Weather.dll public class ErrorResponse Inheritance object ErrorResponse Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties CorrelationId public string CorrelationId { get; set; } Property Value string Detail public string Detail { get; set; } Property Value string Instance public string Instance { get; set; } Property Value string Status public int Status { get; set; } Property Value int Title public string Title { get; set; } Property Value string Type public string Type { get; set; } Property Value string"
+  },
+  "api/Weather.Data.Nws.GeoCode.html": {
+    "href": "api/Weather.Data.Nws.GeoCode.html",
+    "title": "Class GeoCode | Weather",
+    "keywords": "Class GeoCode Namespace Weather.Data.Nws Assembly Weather.dll public class GeoCode Inheritance object GeoCode Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Same [JsonPropertyName(\"SAME\")] public IEnumerable<string> Same { get; set; } Property Value IEnumerable<string> Ugc [JsonPropertyName(\"UGC\")] public IEnumerable<string> Ugc { get; set; } Property Value IEnumerable<string>"
+  },
+  "api/Weather.Data.Nws.PaginationInfo.html": {
+    "href": "api/Weather.Data.Nws.PaginationInfo.html",
+    "title": "Class PaginationInfo | Weather",
+    "keywords": "Class PaginationInfo Namespace Weather.Data.Nws Assembly Weather.dll public class PaginationInfo Inheritance object PaginationInfo Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Next [JsonPropertyName(\"next\")] public string Next { get; set; } Property Value string"
+  },
+  "api/Weather.Data.Nws.html": {
+    "href": "api/Weather.Data.Nws.html",
+    "title": "Namespace Weather.Data.Nws | Weather",
+    "keywords": "Namespace Weather.Data.Nws Classes Alert A representation of alert features from the National Weather Service (NWS) API. AlertProperties AlertReference AlertsResponse ErrorResponse GeoCode PaginationInfo Enums AlertCategory A representation of the category of an alert from the National Weather Service (NWS) API. AlertCertainty A representation of the likelihood an event will occur in relation to an alert from the National Weather Service (NWS) API. AlertMessageType A representation of the latest message type of an alert from the National Weather Service (NWS) API. AlertResponse AlertSeverity AlertStatus AlertUrgency"
+  },
+  "api/Weather.Services.INwsService.html": {
+    "href": "api/Weather.Services.INwsService.html",
+    "title": "Interface INwsService | Weather",
+    "keywords": "Interface INwsService Namespace Weather.Services Assembly Weather.dll Provides an abstraction for getting data from the National Weather Service (NWS) API. public interface INwsService Remarks For more information about the NWS API visit their documentation. The OneOf package used can be found here. Methods GetAlertsAsync() Gets the latest alerts from the NWS API as an asynchronous operation. Task<OneOf<AlertResponse, ErrorResponse>> GetAlertsAsync() Returns Task<OneOf<AlertResponse, ErrorResponse>> The task object containing the response from the API."
+  },
+  "api/Weather.Services.NwsService.html": {
+    "href": "api/Weather.Services.NwsService.html",
+    "title": "Class NwsService | Weather",
+    "keywords": "Class NwsService Namespace Weather.Services Assembly Weather.dll Provides a class for getting data from the National Weather Service (NWS) API. public class NwsService : INwsService Inheritance object NwsService Implements INwsService Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks For more information about the NWS API visit their documentation. The OneOf package used can be found here. Constructors NwsService(HttpClient) Initializes a new instance of the NwsService with the given HttpClient. public NwsService(HttpClient client) Parameters client HttpClient The HttpClient to use for calls to the NWS API. Methods GetAlertsAsync() Gets the latest alerts from the NWS API as an asynchronous operation. public Task<OneOf<AlertResponse, ErrorResponse>> GetAlertsAsync() Returns Task<OneOf<AlertResponse, ErrorResponse>> The task object containing the response from the API. Remarks The API returns 500 alerts by default."
+  },
+  "api/Weather.Services.html": {
+    "href": "api/Weather.Services.html",
+    "title": "Namespace Weather.Services | Weather",
+    "keywords": "Namespace Weather.Services Classes NwsService Provides a class for getting data from the National Weather Service (NWS) API. Interfaces INwsService Provides an abstraction for getting data from the National Weather Service (NWS) API."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | Weather",
+    "keywords": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | Weather",
+    "keywords": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | Weather",
+    "keywords": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}

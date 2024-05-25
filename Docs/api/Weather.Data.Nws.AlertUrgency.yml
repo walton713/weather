@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertUrgency
+  commentId: T:Weather.Data.Nws.AlertUrgency
+  id: AlertUrgency
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertUrgency.Expected
+  - Weather.Data.Nws.AlertUrgency.Future
+  - Weather.Data.Nws.AlertUrgency.Immediate
+  - Weather.Data.Nws.AlertUrgency.Past
+  - Weather.Data.Nws.AlertUrgency.Unknown
+  langs:
+  - csharp
+  - vb
+  name: AlertUrgency
+  nameWithType: AlertUrgency
+  fullName: Weather.Data.Nws.AlertUrgency
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertUrgency
+    path: ../Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+    startLine: 4
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertUrgency
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertUrgency
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertUrgency.Immediate
+  commentId: F:Weather.Data.Nws.AlertUrgency.Immediate
+  id: Immediate
+  parent: Weather.Data.Nws.AlertUrgency
+  langs:
+  - csharp
+  - vb
+  name: Immediate
+  nameWithType: AlertUrgency.Immediate
+  fullName: Weather.Data.Nws.AlertUrgency.Immediate
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Immediate
+    path: ../Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+    startLine: 7
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Immediate = 0
+    return:
+      type: Weather.Data.Nws.AlertUrgency
+- uid: Weather.Data.Nws.AlertUrgency.Expected
+  commentId: F:Weather.Data.Nws.AlertUrgency.Expected
+  id: Expected
+  parent: Weather.Data.Nws.AlertUrgency
+  langs:
+  - csharp
+  - vb
+  name: Expected
+  nameWithType: AlertUrgency.Expected
+  fullName: Weather.Data.Nws.AlertUrgency.Expected
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Expected
+    path: ../Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+    startLine: 8
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Expected = 1
+    return:
+      type: Weather.Data.Nws.AlertUrgency
+- uid: Weather.Data.Nws.AlertUrgency.Future
+  commentId: F:Weather.Data.Nws.AlertUrgency.Future
+  id: Future
+  parent: Weather.Data.Nws.AlertUrgency
+  langs:
+  - csharp
+  - vb
+  name: Future
+  nameWithType: AlertUrgency.Future
+  fullName: Weather.Data.Nws.AlertUrgency.Future
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Future
+    path: ../Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+    startLine: 9
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Future = 2
+    return:
+      type: Weather.Data.Nws.AlertUrgency
+- uid: Weather.Data.Nws.AlertUrgency.Past
+  commentId: F:Weather.Data.Nws.AlertUrgency.Past
+  id: Past
+  parent: Weather.Data.Nws.AlertUrgency
+  langs:
+  - csharp
+  - vb
+  name: Past
+  nameWithType: AlertUrgency.Past
+  fullName: Weather.Data.Nws.AlertUrgency.Past
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Past
+    path: ../Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+    startLine: 10
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Past = 3
+    return:
+      type: Weather.Data.Nws.AlertUrgency
+- uid: Weather.Data.Nws.AlertUrgency.Unknown
+  commentId: F:Weather.Data.Nws.AlertUrgency.Unknown
+  id: Unknown
+  parent: Weather.Data.Nws.AlertUrgency
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AlertUrgency.Unknown
+  fullName: Weather.Data.Nws.AlertUrgency.Unknown
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Unknown
+    path: ../Source/Weather/Weather/Data/Nws/AlertUrgency.cs
+    startLine: 11
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Unknown = 4
+    return:
+      type: Weather.Data.Nws.AlertUrgency
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertUrgency
+  commentId: T:Weather.Data.Nws.AlertUrgency
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertUrgency.html
+  name: AlertUrgency
+  nameWithType: AlertUrgency
+  fullName: Weather.Data.Nws.AlertUrgency

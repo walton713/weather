@@ -1,0 +1,447 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertCategory
+  commentId: T:Weather.Data.Nws.AlertCategory
+  id: AlertCategory
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertCategory.CBRNE
+  - Weather.Data.Nws.AlertCategory.Env
+  - Weather.Data.Nws.AlertCategory.Fire
+  - Weather.Data.Nws.AlertCategory.Geo
+  - Weather.Data.Nws.AlertCategory.Health
+  - Weather.Data.Nws.AlertCategory.Infra
+  - Weather.Data.Nws.AlertCategory.Met
+  - Weather.Data.Nws.AlertCategory.Other
+  - Weather.Data.Nws.AlertCategory.Rescue
+  - Weather.Data.Nws.AlertCategory.Safety
+  - Weather.Data.Nws.AlertCategory.Security
+  - Weather.Data.Nws.AlertCategory.Transport
+  langs:
+  - csharp
+  - vb
+  name: AlertCategory
+  nameWithType: AlertCategory
+  fullName: Weather.Data.Nws.AlertCategory
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertCategory
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 7
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A representation of the category of an alert from the National Weather Service (NWS) API.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertCategory
+    content.vb: >-
+      <Flags>
+
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertCategory
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertCategory.CBRNE
+  commentId: F:Weather.Data.Nws.AlertCategory.CBRNE
+  id: CBRNE
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: CBRNE
+  nameWithType: AlertCategory.CBRNE
+  fullName: Weather.Data.Nws.AlertCategory.CBRNE
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: CBRNE
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 16
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Chemical, Biological, Radiological, Nuclear or High-Yield Explosive alert.
+  example: []
+  syntax:
+    content: CBRNE = 1
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "1"
+- uid: Weather.Data.Nws.AlertCategory.Env
+  commentId: F:Weather.Data.Nws.AlertCategory.Env
+  id: Env
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Env
+  nameWithType: AlertCategory.Env
+  fullName: Weather.Data.Nws.AlertCategory.Env
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Env
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 22
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An Environmental alert.
+  example: []
+  syntax:
+    content: Env = 2
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "2"
+- uid: Weather.Data.Nws.AlertCategory.Fire
+  commentId: F:Weather.Data.Nws.AlertCategory.Fire
+  id: Fire
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Fire
+  nameWithType: AlertCategory.Fire
+  fullName: Weather.Data.Nws.AlertCategory.Fire
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Fire
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 28
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Fire alert.
+  example: []
+  syntax:
+    content: Fire = 4
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "4"
+- uid: Weather.Data.Nws.AlertCategory.Geo
+  commentId: F:Weather.Data.Nws.AlertCategory.Geo
+  id: Geo
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Geo
+  nameWithType: AlertCategory.Geo
+  fullName: Weather.Data.Nws.AlertCategory.Geo
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Geo
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 34
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Geological alert.
+  example: []
+  syntax:
+    content: Geo = 8
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "8"
+- uid: Weather.Data.Nws.AlertCategory.Health
+  commentId: F:Weather.Data.Nws.AlertCategory.Health
+  id: Health
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: AlertCategory.Health
+  fullName: Weather.Data.Nws.AlertCategory.Health
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Health
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 40
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Health alert.
+  example: []
+  syntax:
+    content: Health = 16
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "16"
+- uid: Weather.Data.Nws.AlertCategory.Infra
+  commentId: F:Weather.Data.Nws.AlertCategory.Infra
+  id: Infra
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Infra
+  nameWithType: AlertCategory.Infra
+  fullName: Weather.Data.Nws.AlertCategory.Infra
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Infra
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 46
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An Infrastructure alert.
+  example: []
+  syntax:
+    content: Infra = 32
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "32"
+- uid: Weather.Data.Nws.AlertCategory.Met
+  commentId: F:Weather.Data.Nws.AlertCategory.Met
+  id: Met
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Met
+  nameWithType: AlertCategory.Met
+  fullName: Weather.Data.Nws.AlertCategory.Met
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Met
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 52
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Meteorological alert.
+  example: []
+  syntax:
+    content: Met = 64
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "64"
+- uid: Weather.Data.Nws.AlertCategory.Other
+  commentId: F:Weather.Data.Nws.AlertCategory.Other
+  id: Other
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: AlertCategory.Other
+  fullName: Weather.Data.Nws.AlertCategory.Other
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Other
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 58
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: An alert not described by the other values.
+  example: []
+  syntax:
+    content: Other = 128
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "128"
+- uid: Weather.Data.Nws.AlertCategory.Rescue
+  commentId: F:Weather.Data.Nws.AlertCategory.Rescue
+  id: Rescue
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Rescue
+  nameWithType: AlertCategory.Rescue
+  fullName: Weather.Data.Nws.AlertCategory.Rescue
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Rescue
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 64
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Rescue alert.
+  example: []
+  syntax:
+    content: Rescue = 256
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "256"
+- uid: Weather.Data.Nws.AlertCategory.Safety
+  commentId: F:Weather.Data.Nws.AlertCategory.Safety
+  id: Safety
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Safety
+  nameWithType: AlertCategory.Safety
+  fullName: Weather.Data.Nws.AlertCategory.Safety
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Safety
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 70
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Safety alert.
+  example: []
+  syntax:
+    content: Safety = 512
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "512"
+- uid: Weather.Data.Nws.AlertCategory.Security
+  commentId: F:Weather.Data.Nws.AlertCategory.Security
+  id: Security
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Security
+  nameWithType: AlertCategory.Security
+  fullName: Weather.Data.Nws.AlertCategory.Security
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Security
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 76
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Security alert.
+  example: []
+  syntax:
+    content: Security = 1024
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "1024"
+- uid: Weather.Data.Nws.AlertCategory.Transport
+  commentId: F:Weather.Data.Nws.AlertCategory.Transport
+  id: Transport
+  parent: Weather.Data.Nws.AlertCategory
+  langs:
+  - csharp
+  - vb
+  name: Transport
+  nameWithType: AlertCategory.Transport
+  fullName: Weather.Data.Nws.AlertCategory.Transport
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertCategory.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Transport
+    path: ../Source/Weather/Weather/Data/Nws/AlertCategory.cs
+    startLine: 82
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A Transportation alert.
+  example: []
+  syntax:
+    content: Transport = 2048
+    return:
+      type: Weather.Data.Nws.AlertCategory
+      description: "2048"
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertCategory
+  commentId: T:Weather.Data.Nws.AlertCategory
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertCategory.html
+  name: AlertCategory
+  nameWithType: AlertCategory
+  fullName: Weather.Data.Nws.AlertCategory

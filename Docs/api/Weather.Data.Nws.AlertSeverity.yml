@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertSeverity
+  commentId: T:Weather.Data.Nws.AlertSeverity
+  id: AlertSeverity
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertSeverity.Extreme
+  - Weather.Data.Nws.AlertSeverity.Minor
+  - Weather.Data.Nws.AlertSeverity.Moderate
+  - Weather.Data.Nws.AlertSeverity.Severe
+  - Weather.Data.Nws.AlertSeverity.Unknown
+  langs:
+  - csharp
+  - vb
+  name: AlertSeverity
+  nameWithType: AlertSeverity
+  fullName: Weather.Data.Nws.AlertSeverity
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertSeverity
+    path: ../Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+    startLine: 4
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertSeverity
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertSeverity
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertSeverity.Extreme
+  commentId: F:Weather.Data.Nws.AlertSeverity.Extreme
+  id: Extreme
+  parent: Weather.Data.Nws.AlertSeverity
+  langs:
+  - csharp
+  - vb
+  name: Extreme
+  nameWithType: AlertSeverity.Extreme
+  fullName: Weather.Data.Nws.AlertSeverity.Extreme
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Extreme
+    path: ../Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+    startLine: 7
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Extreme = 0
+    return:
+      type: Weather.Data.Nws.AlertSeverity
+- uid: Weather.Data.Nws.AlertSeverity.Severe
+  commentId: F:Weather.Data.Nws.AlertSeverity.Severe
+  id: Severe
+  parent: Weather.Data.Nws.AlertSeverity
+  langs:
+  - csharp
+  - vb
+  name: Severe
+  nameWithType: AlertSeverity.Severe
+  fullName: Weather.Data.Nws.AlertSeverity.Severe
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Severe
+    path: ../Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+    startLine: 8
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Severe = 1
+    return:
+      type: Weather.Data.Nws.AlertSeverity
+- uid: Weather.Data.Nws.AlertSeverity.Moderate
+  commentId: F:Weather.Data.Nws.AlertSeverity.Moderate
+  id: Moderate
+  parent: Weather.Data.Nws.AlertSeverity
+  langs:
+  - csharp
+  - vb
+  name: Moderate
+  nameWithType: AlertSeverity.Moderate
+  fullName: Weather.Data.Nws.AlertSeverity.Moderate
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Moderate
+    path: ../Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+    startLine: 9
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Moderate = 2
+    return:
+      type: Weather.Data.Nws.AlertSeverity
+- uid: Weather.Data.Nws.AlertSeverity.Minor
+  commentId: F:Weather.Data.Nws.AlertSeverity.Minor
+  id: Minor
+  parent: Weather.Data.Nws.AlertSeverity
+  langs:
+  - csharp
+  - vb
+  name: Minor
+  nameWithType: AlertSeverity.Minor
+  fullName: Weather.Data.Nws.AlertSeverity.Minor
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Minor
+    path: ../Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+    startLine: 10
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Minor = 3
+    return:
+      type: Weather.Data.Nws.AlertSeverity
+- uid: Weather.Data.Nws.AlertSeverity.Unknown
+  commentId: F:Weather.Data.Nws.AlertSeverity.Unknown
+  id: Unknown
+  parent: Weather.Data.Nws.AlertSeverity
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AlertSeverity.Unknown
+  fullName: Weather.Data.Nws.AlertSeverity.Unknown
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Unknown
+    path: ../Source/Weather/Weather/Data/Nws/AlertSeverity.cs
+    startLine: 11
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Unknown = 4
+    return:
+      type: Weather.Data.Nws.AlertSeverity
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertSeverity
+  commentId: T:Weather.Data.Nws.AlertSeverity
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertSeverity.html
+  name: AlertSeverity
+  nameWithType: AlertSeverity
+  fullName: Weather.Data.Nws.AlertSeverity

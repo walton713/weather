@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Services.INwsService
+  commentId: T:Weather.Services.INwsService
+  id: INwsService
+  parent: Weather.Services
+  children:
+  - Weather.Services.INwsService.GetAlertsAsync
+  langs:
+  - csharp
+  - vb
+  name: INwsService
+  nameWithType: INwsService
+  fullName: Weather.Services.INwsService
+  type: Interface
+  source:
+    remote:
+      path: Source/Weather/Weather/Services/INwsService.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: INwsService
+    path: ../Source/Weather/Weather/Services/INwsService.cs
+    startLine: 12
+  assemblies:
+  - Weather
+  namespace: Weather.Services
+  summary: Provides an abstraction for getting data from the National Weather Service (NWS) API.
+  remarks: >-
+    <p>For more information about the NWS API visit <a href="https://www.weather.gov/documentation/services-web-api">their documentation.</a></p>
+
+    <p>The OneOf package used can be found <a href="https://github.com/mcintyre321/OneOf">here.</a></p>
+  example: []
+  syntax:
+    content: public interface INwsService
+    content.vb: Public Interface INwsService
+- uid: Weather.Services.INwsService.GetAlertsAsync
+  commentId: M:Weather.Services.INwsService.GetAlertsAsync
+  id: GetAlertsAsync
+  parent: Weather.Services.INwsService
+  langs:
+  - csharp
+  - vb
+  name: GetAlertsAsync()
+  nameWithType: INwsService.GetAlertsAsync()
+  fullName: Weather.Services.INwsService.GetAlertsAsync()
+  type: Method
+  source:
+    remote:
+      path: Source/Weather/Weather/Services/INwsService.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: GetAlertsAsync
+    path: ../Source/Weather/Weather/Services/INwsService.cs
+    startLine: 18
+  assemblies:
+  - Weather
+  namespace: Weather.Services
+  summary: Gets the latest alerts from the NWS API as an asynchronous operation.
+  example: []
+  syntax:
+    content: Task<OneOf<AlertResponse, ErrorResponse>> GetAlertsAsync()
+    return:
+      type: System.Threading.Tasks.Task{OneOf.OneOf{Weather.Data.Nws.AlertResponse,Weather.Data.Nws.ErrorResponse}}
+      description: The task object containing the response from the API.
+    content.vb: Function GetAlertsAsync() As Task(Of OneOf(Of AlertResponse, ErrorResponse))
+  overload: Weather.Services.INwsService.GetAlertsAsync*
+references:
+- uid: Weather.Services
+  commentId: N:Weather.Services
+  href: Weather.html
+  name: Weather.Services
+  nameWithType: Weather.Services
+  fullName: Weather.Services
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Services
+    name: Services
+    href: Weather.Services.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Services
+    name: Services
+    href: Weather.Services.html
+- uid: Weather.Services.INwsService.GetAlertsAsync*
+  commentId: Overload:Weather.Services.INwsService.GetAlertsAsync
+  href: Weather.Services.INwsService.html#Weather_Services_INwsService_GetAlertsAsync
+  name: GetAlertsAsync
+  nameWithType: INwsService.GetAlertsAsync
+  fullName: Weather.Services.INwsService.GetAlertsAsync
+- uid: System.Threading.Tasks.Task{OneOf.OneOf{Weather.Data.Nws.AlertResponse,Weather.Data.Nws.ErrorResponse}}
+  commentId: T:System.Threading.Tasks.Task{OneOf.OneOf{Weather.Data.Nws.AlertResponse,Weather.Data.Nws.ErrorResponse}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<OneOf<AlertResponse, ErrorResponse>>
+  nameWithType: Task<OneOf<AlertResponse, ErrorResponse>>
+  fullName: System.Threading.Tasks.Task<OneOf.OneOf<Weather.Data.Nws.AlertResponse, Weather.Data.Nws.ErrorResponse>>
+  nameWithType.vb: Task(Of OneOf(Of AlertResponse, ErrorResponse))
+  fullName.vb: System.Threading.Tasks.Task(Of OneOf.OneOf(Of Weather.Data.Nws.AlertResponse, Weather.Data.Nws.ErrorResponse))
+  name.vb: Task(Of OneOf(Of AlertResponse, ErrorResponse))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: Weather.Data.Nws.AlertResponse
+    name: AlertResponse
+    href: Weather.Data.Nws.AlertResponse.html
+  - name: ','
+  - name: " "
+  - uid: Weather.Data.Nws.ErrorResponse
+    name: ErrorResponse
+    href: Weather.Data.Nws.ErrorResponse.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Weather.Data.Nws.AlertResponse
+    name: AlertResponse
+    href: Weather.Data.Nws.AlertResponse.html
+  - name: ','
+  - name: " "
+  - uid: Weather.Data.Nws.ErrorResponse
+    name: ErrorResponse
+    href: Weather.Data.Nws.ErrorResponse.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

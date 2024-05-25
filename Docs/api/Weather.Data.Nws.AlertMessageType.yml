@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertMessageType
+  commentId: T:Weather.Data.Nws.AlertMessageType
+  id: AlertMessageType
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertMessageType.Ack
+  - Weather.Data.Nws.AlertMessageType.Alert
+  - Weather.Data.Nws.AlertMessageType.Cancel
+  - Weather.Data.Nws.AlertMessageType.Error
+  - Weather.Data.Nws.AlertMessageType.Update
+  langs:
+  - csharp
+  - vb
+  name: AlertMessageType
+  nameWithType: AlertMessageType
+  fullName: Weather.Data.Nws.AlertMessageType
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertMessageType
+    path: ../Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+    startLine: 7
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: A representation of the latest message type of an alert from the National Weather Service (NWS) API.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertMessageType
+    content.vb: >-
+      <Flags>
+
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertMessageType
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertMessageType.Ack
+  commentId: F:Weather.Data.Nws.AlertMessageType.Ack
+  id: Ack
+  parent: Weather.Data.Nws.AlertMessageType
+  langs:
+  - csharp
+  - vb
+  name: Ack
+  nameWithType: AlertMessageType.Ack
+  fullName: Weather.Data.Nws.AlertMessageType.Ack
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Ack
+    path: ../Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+    startLine: 15
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: The message is an acknowledgement.
+  example: []
+  syntax:
+    content: Ack = 1
+    return:
+      type: Weather.Data.Nws.AlertMessageType
+      description: "1"
+- uid: Weather.Data.Nws.AlertMessageType.Alert
+  commentId: F:Weather.Data.Nws.AlertMessageType.Alert
+  id: Alert
+  parent: Weather.Data.Nws.AlertMessageType
+  langs:
+  - csharp
+  - vb
+  name: Alert
+  nameWithType: AlertMessageType.Alert
+  fullName: Weather.Data.Nws.AlertMessageType.Alert
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Alert
+    path: ../Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+    startLine: 21
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: The message is a new alert.
+  example: []
+  syntax:
+    content: Alert = 2
+    return:
+      type: Weather.Data.Nws.AlertMessageType
+      description: "2"
+- uid: Weather.Data.Nws.AlertMessageType.Cancel
+  commentId: F:Weather.Data.Nws.AlertMessageType.Cancel
+  id: Cancel
+  parent: Weather.Data.Nws.AlertMessageType
+  langs:
+  - csharp
+  - vb
+  name: Cancel
+  nameWithType: AlertMessageType.Cancel
+  fullName: Weather.Data.Nws.AlertMessageType.Cancel
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Cancel
+    path: ../Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+    startLine: 27
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: The message is a cancellation of an alert.
+  example: []
+  syntax:
+    content: Cancel = 4
+    return:
+      type: Weather.Data.Nws.AlertMessageType
+      description: "4"
+- uid: Weather.Data.Nws.AlertMessageType.Error
+  commentId: F:Weather.Data.Nws.AlertMessageType.Error
+  id: Error
+  parent: Weather.Data.Nws.AlertMessageType
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: AlertMessageType.Error
+  fullName: Weather.Data.Nws.AlertMessageType.Error
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Error
+    path: ../Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+    startLine: 33
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: The message was issued in error.
+  example: []
+  syntax:
+    content: Error = 8
+    return:
+      type: Weather.Data.Nws.AlertMessageType
+      description: "8"
+- uid: Weather.Data.Nws.AlertMessageType.Update
+  commentId: F:Weather.Data.Nws.AlertMessageType.Update
+  id: Update
+  parent: Weather.Data.Nws.AlertMessageType
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: AlertMessageType.Update
+  fullName: Weather.Data.Nws.AlertMessageType.Update
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Update
+    path: ../Source/Weather/Weather/Data/Nws/AlertMessageType.cs
+    startLine: 39
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  summary: the message is an update to an alert.
+  example: []
+  syntax:
+    content: Update = 16
+    return:
+      type: Weather.Data.Nws.AlertMessageType
+      description: "16"
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertMessageType
+  commentId: T:Weather.Data.Nws.AlertMessageType
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertMessageType.html
+  name: AlertMessageType
+  nameWithType: AlertMessageType
+  fullName: Weather.Data.Nws.AlertMessageType

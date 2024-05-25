@@ -1,0 +1,41 @@
+### YamlMime:TableOfContent
+items:
+- uid: Weather.Data.Nws
+  name: Weather.Data.Nws
+  items:
+  - uid: Weather.Data.Nws.Alert
+    name: Alert
+  - uid: Weather.Data.Nws.AlertCategory
+    name: AlertCategory
+  - uid: Weather.Data.Nws.AlertCertainty
+    name: AlertCertainty
+  - uid: Weather.Data.Nws.AlertMessageType
+    name: AlertMessageType
+  - uid: Weather.Data.Nws.AlertProperties
+    name: AlertProperties
+  - uid: Weather.Data.Nws.AlertReference
+    name: AlertReference
+  - uid: Weather.Data.Nws.AlertResponse
+    name: AlertResponse
+  - uid: Weather.Data.Nws.AlertSeverity
+    name: AlertSeverity
+  - uid: Weather.Data.Nws.AlertStatus
+    name: AlertStatus
+  - uid: Weather.Data.Nws.AlertUrgency
+    name: AlertUrgency
+  - uid: Weather.Data.Nws.AlertsResponse
+    name: AlertsResponse
+  - uid: Weather.Data.Nws.ErrorResponse
+    name: ErrorResponse
+  - uid: Weather.Data.Nws.GeoCode
+    name: GeoCode
+  - uid: Weather.Data.Nws.PaginationInfo
+    name: PaginationInfo
+- uid: Weather.Services
+  name: Weather.Services
+  items:
+  - uid: Weather.Services.INwsService
+    name: INwsService
+  - uid: Weather.Services.NwsService
+    name: NwsService
+memberLayout: SamePage

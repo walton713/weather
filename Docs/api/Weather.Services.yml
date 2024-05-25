@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Services
+  commentId: N:Weather.Services
+  id: Weather.Services
+  children:
+  - Weather.Services.INwsService
+  - Weather.Services.NwsService
+  langs:
+  - csharp
+  - vb
+  name: Weather.Services
+  nameWithType: Weather.Services
+  fullName: Weather.Services
+  type: Namespace
+  assemblies:
+  - Weather
+references:
+- uid: Weather.Services.INwsService
+  commentId: T:Weather.Services.INwsService
+  parent: Weather.Services
+  href: Weather.Services.INwsService.html
+  name: INwsService
+  nameWithType: INwsService
+  fullName: Weather.Services.INwsService
+- uid: Weather.Services.NwsService
+  commentId: T:Weather.Services.NwsService
+  href: Weather.Services.NwsService.html
+  name: NwsService
+  nameWithType: NwsService
+  fullName: Weather.Services.NwsService
+- uid: Weather.Services
+  commentId: N:Weather.Services
+  href: Weather.html
+  name: Weather.Services
+  nameWithType: Weather.Services
+  fullName: Weather.Services
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Services
+    name: Services
+    href: Weather.Services.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Services
+    name: Services
+    href: Weather.Services.html

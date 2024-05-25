@@ -1,0 +1,583 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Services.NwsService
+  commentId: T:Weather.Services.NwsService
+  id: NwsService
+  parent: Weather.Services
+  children:
+  - Weather.Services.NwsService.#ctor(System.Net.Http.HttpClient)
+  - Weather.Services.NwsService.GetAlertsAsync
+  langs:
+  - csharp
+  - vb
+  name: NwsService
+  nameWithType: NwsService
+  fullName: Weather.Services.NwsService
+  type: Class
+  source:
+    remote:
+      path: Source/Weather/Weather/Services/NwsService.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: NwsService
+    path: ../Source/Weather/Weather/Services/NwsService.cs
+    startLine: 9
+  assemblies:
+  - Weather
+  namespace: Weather.Services
+  summary: Provides a class for getting data from the National Weather Service (NWS) API.
+  remarks: >-
+    <p>For more information about the NWS API visit <a href="https://www.weather.gov/documentation/services-web-api">their documentation.</a></p>
+
+    <p>The OneOf package used can be found <a href="https://github.com/mcintyre321/OneOf">here.</a></p>
+  example: []
+  syntax:
+    content: 'public class NwsService : INwsService'
+    content.vb: Public Class NwsService Implements INwsService
+  inheritance:
+  - System.Object
+  implements:
+  - Weather.Services.INwsService
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Weather.Services.NwsService.#ctor(System.Net.Http.HttpClient)
+  commentId: M:Weather.Services.NwsService.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: Weather.Services.NwsService
+  langs:
+  - csharp
+  - vb
+  name: NwsService(HttpClient)
+  nameWithType: NwsService.NwsService(HttpClient)
+  fullName: Weather.Services.NwsService.NwsService(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    remote:
+      path: Source/Weather/Weather/Services/NwsService.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: .ctor
+    path: ../Source/Weather/Weather/Services/NwsService.cs
+    startLine: 17
+  assemblies:
+  - Weather
+  namespace: Weather.Services
+  summary: Initializes a new instance of the NwsService with the given HttpClient.
+  example: []
+  syntax:
+    content: public NwsService(HttpClient client)
+    parameters:
+    - id: client
+      type: System.Net.Http.HttpClient
+      description: The HttpClient to use for calls to the NWS API.
+    content.vb: Public Sub New(client As HttpClient)
+  overload: Weather.Services.NwsService.#ctor*
+  nameWithType.vb: NwsService.New(HttpClient)
+  fullName.vb: Weather.Services.NwsService.New(System.Net.Http.HttpClient)
+  name.vb: New(HttpClient)
+- uid: Weather.Services.NwsService.GetAlertsAsync
+  commentId: M:Weather.Services.NwsService.GetAlertsAsync
+  id: GetAlertsAsync
+  parent: Weather.Services.NwsService
+  langs:
+  - csharp
+  - vb
+  name: GetAlertsAsync()
+  nameWithType: NwsService.GetAlertsAsync()
+  fullName: Weather.Services.NwsService.GetAlertsAsync()
+  type: Method
+  source:
+    remote:
+      path: Source/Weather/Weather/Services/NwsService.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: GetAlertsAsync
+    path: ../Source/Weather/Weather/Services/NwsService.cs
+    startLine: 24
+  assemblies:
+  - Weather
+  namespace: Weather.Services
+  summary: Gets the latest alerts from the NWS API as an asynchronous operation.
+  remarks: The API returns 500 alerts by default.
+  example: []
+  syntax:
+    content: public Task<OneOf<AlertResponse, ErrorResponse>> GetAlertsAsync()
+    return:
+      type: System.Threading.Tasks.Task{OneOf.OneOf{Weather.Data.Nws.AlertResponse,Weather.Data.Nws.ErrorResponse}}
+      description: The task object containing the response from the API.
+    content.vb: Public Function GetAlertsAsync() As Task(Of OneOf(Of AlertResponse, ErrorResponse))
+  overload: Weather.Services.NwsService.GetAlertsAsync*
+  implements:
+  - Weather.Services.INwsService.GetAlertsAsync
+references:
+- uid: Weather.Services
+  commentId: N:Weather.Services
+  href: Weather.html
+  name: Weather.Services
+  nameWithType: Weather.Services
+  fullName: Weather.Services
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Services
+    name: Services
+    href: Weather.Services.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Services
+    name: Services
+    href: Weather.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Weather.Services.INwsService
+  commentId: T:Weather.Services.INwsService
+  parent: Weather.Services
+  href: Weather.Services.INwsService.html
+  name: INwsService
+  nameWithType: INwsService
+  fullName: Weather.Services.INwsService
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Weather.Services.NwsService.#ctor*
+  commentId: Overload:Weather.Services.NwsService.#ctor
+  href: Weather.Services.NwsService.html#Weather_Services_NwsService__ctor_System_Net_Http_HttpClient_
+  name: NwsService
+  nameWithType: NwsService.NwsService
+  fullName: Weather.Services.NwsService.NwsService
+  nameWithType.vb: NwsService.New
+  fullName.vb: Weather.Services.NwsService.New
+  name.vb: New
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  parent: System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: System.Net.Http
+  commentId: N:System.Net.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Net.Http
+  nameWithType: System.Net.Http
+  fullName: System.Net.Http
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Net
+    name: Net
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net
+  - name: .
+  - uid: System.Net.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.net.http
+- uid: Weather.Services.NwsService.GetAlertsAsync*
+  commentId: Overload:Weather.Services.NwsService.GetAlertsAsync
+  href: Weather.Services.NwsService.html#Weather_Services_NwsService_GetAlertsAsync
+  name: GetAlertsAsync
+  nameWithType: NwsService.GetAlertsAsync
+  fullName: Weather.Services.NwsService.GetAlertsAsync
+- uid: Weather.Services.INwsService.GetAlertsAsync
+  commentId: M:Weather.Services.INwsService.GetAlertsAsync
+  parent: Weather.Services.INwsService
+  href: Weather.Services.INwsService.html#Weather_Services_INwsService_GetAlertsAsync
+  name: GetAlertsAsync()
+  nameWithType: INwsService.GetAlertsAsync()
+  fullName: Weather.Services.INwsService.GetAlertsAsync()
+  spec.csharp:
+  - uid: Weather.Services.INwsService.GetAlertsAsync
+    name: GetAlertsAsync
+    href: Weather.Services.INwsService.html#Weather_Services_INwsService_GetAlertsAsync
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Weather.Services.INwsService.GetAlertsAsync
+    name: GetAlertsAsync
+    href: Weather.Services.INwsService.html#Weather_Services_INwsService_GetAlertsAsync
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task{OneOf.OneOf{Weather.Data.Nws.AlertResponse,Weather.Data.Nws.ErrorResponse}}
+  commentId: T:System.Threading.Tasks.Task{OneOf.OneOf{Weather.Data.Nws.AlertResponse,Weather.Data.Nws.ErrorResponse}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<OneOf<AlertResponse, ErrorResponse>>
+  nameWithType: Task<OneOf<AlertResponse, ErrorResponse>>
+  fullName: System.Threading.Tasks.Task<OneOf.OneOf<Weather.Data.Nws.AlertResponse, Weather.Data.Nws.ErrorResponse>>
+  nameWithType.vb: Task(Of OneOf(Of AlertResponse, ErrorResponse))
+  fullName.vb: System.Threading.Tasks.Task(Of OneOf.OneOf(Of Weather.Data.Nws.AlertResponse, Weather.Data.Nws.ErrorResponse))
+  name.vb: Task(Of OneOf(Of AlertResponse, ErrorResponse))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: <
+  - uid: Weather.Data.Nws.AlertResponse
+    name: AlertResponse
+    href: Weather.Data.Nws.AlertResponse.html
+  - name: ','
+  - name: " "
+  - uid: Weather.Data.Nws.ErrorResponse
+    name: ErrorResponse
+    href: Weather.Data.Nws.ErrorResponse.html
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: OneOf.OneOf`2
+    name: OneOf
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Weather.Data.Nws.AlertResponse
+    name: AlertResponse
+    href: Weather.Data.Nws.AlertResponse.html
+  - name: ','
+  - name: " "
+  - uid: Weather.Data.Nws.ErrorResponse
+    name: ErrorResponse
+    href: Weather.Data.Nws.ErrorResponse.html
+  - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

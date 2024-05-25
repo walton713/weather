@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  id: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.Alert
+  - Weather.Data.Nws.AlertCategory
+  - Weather.Data.Nws.AlertCertainty
+  - Weather.Data.Nws.AlertMessageType
+  - Weather.Data.Nws.AlertProperties
+  - Weather.Data.Nws.AlertReference
+  - Weather.Data.Nws.AlertResponse
+  - Weather.Data.Nws.AlertSeverity
+  - Weather.Data.Nws.AlertStatus
+  - Weather.Data.Nws.AlertUrgency
+  - Weather.Data.Nws.AlertsResponse
+  - Weather.Data.Nws.ErrorResponse
+  - Weather.Data.Nws.GeoCode
+  - Weather.Data.Nws.PaginationInfo
+  langs:
+  - csharp
+  - vb
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  type: Namespace
+  assemblies:
+  - Weather
+references:
+- uid: Weather.Data.Nws.Alert
+  commentId: T:Weather.Data.Nws.Alert
+  href: Weather.Data.Nws.Alert.html
+  name: Alert
+  nameWithType: Alert
+  fullName: Weather.Data.Nws.Alert
+- uid: Weather.Data.Nws.AlertCategory
+  commentId: T:Weather.Data.Nws.AlertCategory
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertCategory.html
+  name: AlertCategory
+  nameWithType: AlertCategory
+  fullName: Weather.Data.Nws.AlertCategory
+- uid: Weather.Data.Nws.AlertCertainty
+  commentId: T:Weather.Data.Nws.AlertCertainty
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertCertainty.html
+  name: AlertCertainty
+  nameWithType: AlertCertainty
+  fullName: Weather.Data.Nws.AlertCertainty
+- uid: Weather.Data.Nws.AlertMessageType
+  commentId: T:Weather.Data.Nws.AlertMessageType
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertMessageType.html
+  name: AlertMessageType
+  nameWithType: AlertMessageType
+  fullName: Weather.Data.Nws.AlertMessageType
+- uid: Weather.Data.Nws.AlertProperties
+  commentId: T:Weather.Data.Nws.AlertProperties
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertProperties.html
+  name: AlertProperties
+  nameWithType: AlertProperties
+  fullName: Weather.Data.Nws.AlertProperties
+- uid: Weather.Data.Nws.AlertReference
+  commentId: T:Weather.Data.Nws.AlertReference
+  href: Weather.Data.Nws.AlertReference.html
+  name: AlertReference
+  nameWithType: AlertReference
+  fullName: Weather.Data.Nws.AlertReference
+- uid: Weather.Data.Nws.AlertResponse
+  commentId: T:Weather.Data.Nws.AlertResponse
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertResponse.html
+  name: AlertResponse
+  nameWithType: AlertResponse
+  fullName: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertSeverity
+  commentId: T:Weather.Data.Nws.AlertSeverity
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertSeverity.html
+  name: AlertSeverity
+  nameWithType: AlertSeverity
+  fullName: Weather.Data.Nws.AlertSeverity
+- uid: Weather.Data.Nws.AlertsResponse
+  commentId: T:Weather.Data.Nws.AlertsResponse
+  href: Weather.Data.Nws.AlertsResponse.html
+  name: AlertsResponse
+  nameWithType: AlertsResponse
+  fullName: Weather.Data.Nws.AlertsResponse
+- uid: Weather.Data.Nws.AlertStatus
+  commentId: T:Weather.Data.Nws.AlertStatus
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertStatus.html
+  name: AlertStatus
+  nameWithType: AlertStatus
+  fullName: Weather.Data.Nws.AlertStatus
+- uid: Weather.Data.Nws.AlertUrgency
+  commentId: T:Weather.Data.Nws.AlertUrgency
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertUrgency.html
+  name: AlertUrgency
+  nameWithType: AlertUrgency
+  fullName: Weather.Data.Nws.AlertUrgency
+- uid: Weather.Data.Nws.ErrorResponse
+  commentId: T:Weather.Data.Nws.ErrorResponse
+  href: Weather.Data.Nws.ErrorResponse.html
+  name: ErrorResponse
+  nameWithType: ErrorResponse
+  fullName: Weather.Data.Nws.ErrorResponse
+- uid: Weather.Data.Nws.GeoCode
+  commentId: T:Weather.Data.Nws.GeoCode
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.GeoCode.html
+  name: GeoCode
+  nameWithType: GeoCode
+  fullName: Weather.Data.Nws.GeoCode
+- uid: Weather.Data.Nws.PaginationInfo
+  commentId: T:Weather.Data.Nws.PaginationInfo
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.PaginationInfo.html
+  name: PaginationInfo
+  nameWithType: PaginationInfo
+  fullName: Weather.Data.Nws.PaginationInfo
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html

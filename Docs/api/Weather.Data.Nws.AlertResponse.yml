@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: Weather.Data.Nws.AlertResponse
+  commentId: T:Weather.Data.Nws.AlertResponse
+  id: AlertResponse
+  parent: Weather.Data.Nws
+  children:
+  - Weather.Data.Nws.AlertResponse.AllClear
+  - Weather.Data.Nws.AlertResponse.Assess
+  - Weather.Data.Nws.AlertResponse.Avoid
+  - Weather.Data.Nws.AlertResponse.Evacuate
+  - Weather.Data.Nws.AlertResponse.Execute
+  - Weather.Data.Nws.AlertResponse.Monitor
+  - Weather.Data.Nws.AlertResponse.None
+  - Weather.Data.Nws.AlertResponse.Prepare
+  - Weather.Data.Nws.AlertResponse.Shelter
+  langs:
+  - csharp
+  - vb
+  name: AlertResponse
+  nameWithType: AlertResponse
+  fullName: Weather.Data.Nws.AlertResponse
+  type: Enum
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AlertResponse
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 4
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: >-
+      [JsonConverter(typeof(JsonStringEnumConverter))]
+
+      public enum AlertResponse
+    content.vb: >-
+      <JsonConverter(GetType(JsonStringEnumConverter))>
+
+      Public Enum AlertResponse
+  attributes:
+  - type: System.Text.Json.Serialization.JsonConverterAttribute
+    ctor: System.Text.Json.Serialization.JsonConverterAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: System.Text.Json.Serialization.JsonStringEnumConverter
+- uid: Weather.Data.Nws.AlertResponse.Shelter
+  commentId: F:Weather.Data.Nws.AlertResponse.Shelter
+  id: Shelter
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Shelter
+  nameWithType: AlertResponse.Shelter
+  fullName: Weather.Data.Nws.AlertResponse.Shelter
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Shelter
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 7
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Shelter = 0
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.Evacuate
+  commentId: F:Weather.Data.Nws.AlertResponse.Evacuate
+  id: Evacuate
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Evacuate
+  nameWithType: AlertResponse.Evacuate
+  fullName: Weather.Data.Nws.AlertResponse.Evacuate
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Evacuate
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 8
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Evacuate = 1
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.Prepare
+  commentId: F:Weather.Data.Nws.AlertResponse.Prepare
+  id: Prepare
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Prepare
+  nameWithType: AlertResponse.Prepare
+  fullName: Weather.Data.Nws.AlertResponse.Prepare
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Prepare
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 9
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Prepare = 2
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.Execute
+  commentId: F:Weather.Data.Nws.AlertResponse.Execute
+  id: Execute
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Execute
+  nameWithType: AlertResponse.Execute
+  fullName: Weather.Data.Nws.AlertResponse.Execute
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Execute
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 10
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Execute = 3
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.Avoid
+  commentId: F:Weather.Data.Nws.AlertResponse.Avoid
+  id: Avoid
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Avoid
+  nameWithType: AlertResponse.Avoid
+  fullName: Weather.Data.Nws.AlertResponse.Avoid
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Avoid
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 11
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Avoid = 4
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.Monitor
+  commentId: F:Weather.Data.Nws.AlertResponse.Monitor
+  id: Monitor
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Monitor
+  nameWithType: AlertResponse.Monitor
+  fullName: Weather.Data.Nws.AlertResponse.Monitor
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Monitor
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 12
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Monitor = 5
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.Assess
+  commentId: F:Weather.Data.Nws.AlertResponse.Assess
+  id: Assess
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: Assess
+  nameWithType: AlertResponse.Assess
+  fullName: Weather.Data.Nws.AlertResponse.Assess
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: Assess
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 13
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: Assess = 6
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.AllClear
+  commentId: F:Weather.Data.Nws.AlertResponse.AllClear
+  id: AllClear
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: AllClear
+  nameWithType: AlertResponse.AllClear
+  fullName: Weather.Data.Nws.AlertResponse.AllClear
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: AllClear
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 14
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: AllClear = 7
+    return:
+      type: Weather.Data.Nws.AlertResponse
+- uid: Weather.Data.Nws.AlertResponse.None
+  commentId: F:Weather.Data.Nws.AlertResponse.None
+  id: None
+  parent: Weather.Data.Nws.AlertResponse
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AlertResponse.None
+  fullName: Weather.Data.Nws.AlertResponse.None
+  type: Field
+  source:
+    remote:
+      path: Source/Weather/Weather/Data/Nws/AlertResponse.cs
+      branch: nws-base-alerts
+      repo: git@github.com:walton713/weather.git
+    id: None
+    path: ../Source/Weather/Weather/Data/Nws/AlertResponse.cs
+    startLine: 15
+  assemblies:
+  - Weather
+  namespace: Weather.Data.Nws
+  syntax:
+    content: None = 8
+    return:
+      type: Weather.Data.Nws.AlertResponse
+references:
+- uid: Weather.Data.Nws
+  commentId: N:Weather.Data.Nws
+  href: Weather.html
+  name: Weather.Data.Nws
+  nameWithType: Weather.Data.Nws
+  fullName: Weather.Data.Nws
+  spec.csharp:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+  spec.vb:
+  - uid: Weather
+    name: Weather
+    href: Weather.html
+  - name: .
+  - uid: Weather.Data
+    name: Data
+    href: Weather.Data.html
+  - name: .
+  - uid: Weather.Data.Nws
+    name: Nws
+    href: Weather.Data.Nws.html
+- uid: Weather.Data.Nws.AlertResponse
+  commentId: T:Weather.Data.Nws.AlertResponse
+  parent: Weather.Data.Nws
+  href: Weather.Data.Nws.AlertResponse.html
+  name: AlertResponse
+  nameWithType: AlertResponse
+  fullName: Weather.Data.Nws.AlertResponse
